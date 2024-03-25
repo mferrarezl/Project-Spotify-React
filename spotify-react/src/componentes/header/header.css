@@ -1,0 +1,104 @@
+ /* HEADER */
+ .header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: var(--bg-sidebar-color);
+}
+
+.header__navigation .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__navigation .navigation .arrow-left {
+    margin-right: 1.25rem;
+}
+
+.arrow-left, .arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color: var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.header__login {
+    display: flex;
+    align-items: center;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 46px;
+    margin-left: 8px;
+    background-color: var(--bg-playlist-color);
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header__search img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.header__search input {
+    background: transparent;
+    border: none;
+    padding: 0 100px 0 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+    color: var(--txt-body-color);
+    font-size: 16px;
+}
+
+.header__login .signup {
+    color: var(--txt-login-color);
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.header__login .signin {
+    width: 100px;
+    height: 48px;
+    color: var(--bg-body-color);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+    cursor: pointer;
+} 
+
+/* HOVER */
+.header__search:hover {
+    border: 1px solid var(--txt-body-color);
+}
+  
+.header__login .signup:hover {
+    transform: scale(1.04);
+    color: var(--txt-body-color);
+}
+  
+.header__login .signin:hover {
+    transform: scale(1.04);
+}    
+/* FIM HOVER */
+
+/* FIM HEADER */

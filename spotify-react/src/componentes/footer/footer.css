@@ -1,0 +1,59 @@
+/* FOOTER */  
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image: var(--bg-footer-color);
+    padding: 8px 20px;
+    margin: 8px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.rodape__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+
+.rodape__content .text{
+    color: var(--txt-body-color);
+}
+
+.rodape__content .title{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.rodape__content .subtitle{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.rodape .rodape__button {
+    display: flex;
+    justify-content: center;
+    background-color: var(--txt-body-color);
+    color: var(--bg-body-color);
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration:none;
+    text-transform: none;
+    padding: 16px 0;
+    border:0;
+    width: 195px;
+    cursor: pointer;
+}
+
+/* HOVER */
+.rodape .rodape__button:hover {
+    transform: scale(1.05);
+}
+/* FIM HOVER */
