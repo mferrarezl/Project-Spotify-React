@@ -8,7 +8,7 @@ const Search = () => {
       const searchInput = document.getElementById("search-input");
 
       function requestApi(searchTerm) {
-        fetch(`http://localhost:3001/artists?name_like=${searchTerm}`)
+        fetch(`https://api-artists.vercel.app/artists?name_like=${searchTerm}`)
           .then((response) => response.json())
           .then((results) => displayResults(results));
       }

@@ -15,8 +15,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "start:api": "json-server --watch src/api-artists/artists.json --port 3001"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
